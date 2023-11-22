@@ -33,7 +33,6 @@ public class lineManipulations {
         lineManipulations line = new lineManipulations(x1, y1, x2, y2);
         double length = line.calculateLength();
         System.out.println("Length of the line: " + length);
-
         scanner.close();
     }
 }
